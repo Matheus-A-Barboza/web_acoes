@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-acoes{
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo img{
+    max-width: 8%;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.info-logo h1{
+    font-size: 25px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+.info-logo h2{
+    font-size: 12px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+.info-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-btn {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(160, 136, 49);
+  border-radius: 20px;
+  border: none;
+}
+
+.carteira-btn {
+  width: 110px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+div ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+div ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px 50px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
