@@ -24,41 +24,53 @@ body {
 .container-header {
   display: flex;
   align-items: center;
+  background-color: red;
 }
 
-.header-acoes{
-    align-items: center;
-    justify-content: center;
+.container-cards {
+  /* display: flex; */
+  justify-content: center;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
+.guia-botoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
 }
 
-.logo img{
-    max-width: 8%;
-    height: auto;
-    margin-left: 20px;
+.header-acoes {
+  align-items: center;
+  justify-content: center;
 }
 
-
-.info-logo h1{
-    font-size: 25px;
-    width: 15px;
-    margin-left: 20px;
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
 
-.info-logo h2{
-    font-size: 12px;
-    width: 15px;
-    margin-left: 20px;
+.logo img {
+  max-width: 8%;
+  height: auto;
+  margin-left: 45px;
 }
 
-.info-logo{
-    display: flex;
-    flex-direction: column;
+.info-logo h1 {
+  font-size: 25px;
+  width: 15px;
+  margin-left: 20px;
+}
+
+.info-logo h2 {
+  font-size: 12px;
+  width: 15px;
+  margin-left: 20px;
+}
+
+.info-logo {
+  display: flex;
+  flex-direction: column;
 }
 
 .pro-btn {
@@ -77,6 +89,67 @@ body {
 
 .brand {
   font-size: 1.5rem;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card-header {
+  border-radius: 5px 5px 0px 0px;
+  background-color: #333;
+  height: 30px;
+}
+
+.card-header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-cotacao {
+  border-radius: 5px;
+  background-color: red;
+}
+
+.card-varicao {
+  border-radius: 5px;
+  background-color: red;
+}
+.card-pl {
+  border-radius: 5px;
+  background-color: red;
+}
+
+.card-pvp {
+  border-radius: 5px;
+  background-color: red;
+}
+.card-dy {
+  border-radius: 5px;
+  background-color: red;
+}
+
+.card-body {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.grafico {
+  background-color: #333;
+}
+
+.grafico img {
+  padding: 10px;
+  align-items: center;
+  width: 80%;
 }
 
 nav ul {
