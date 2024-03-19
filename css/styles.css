@@ -14,9 +14,31 @@ body {
   background-color: #f4f4f4;
 }
 
+h4{
+  display: flex;
+  justify-content: center;
+}
+
+h6{
+  display: flex;
+  justify-content: center;
+}
+
+.comparar{
+  font-family: "Arial";
+  font-weight: 750;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  background-color: transparent;
+  border-radius: 20px;
+  height: 35px;
+  border-color: #8c8c8c;
+}
+
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
 }
@@ -24,15 +46,18 @@ body {
 .container-header {
   display: flex;
   align-items: center;
-  background-color: red;
+  background-color: #2a2f38;
 }
 
 .container-cards {
-  /* display: flex; */
   justify-content: center;
 }
 
 .guia-botoes {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +67,7 @@ body {
 .header-acoes {
   align-items: center;
   justify-content: center;
+  
 }
 
 .logo {
@@ -51,7 +77,7 @@ body {
 }
 
 .logo img {
-  max-width: 8%;
+  max-width: 11%;
   height: auto;
   margin-left: 45px;
 }
@@ -60,12 +86,14 @@ body {
   font-size: 25px;
   width: 15px;
   margin-left: 20px;
+  color: #f4f4f4;
 }
 
 .info-logo h2 {
   font-size: 12px;
   width: 15px;
   margin-left: 20px;
+  color: #f4f4f4;
 }
 
 .info-logo {
@@ -76,7 +104,7 @@ body {
 .pro-btn {
   width: 60px;
   height: 25px;
-  background-color: rgb(160, 136, 49);
+  background-color: #c0af59;
   border-radius: 20px;
   border: none;
 }
@@ -87,69 +115,184 @@ body {
   border-radius: 20px;
 }
 
+.profile-btn{
+  margin: 20px;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  border-color: #c0af59;
+}
+
 .brand {
   font-size: 1.5rem;
 }
 
-#cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
-}
-
 .card-header {
   border-radius: 5px 5px 0px 0px;
-  background-color: #333;
+  background-color: #293038;
   height: 30px;
+  width: 160px;
 }
 
 .card-header span {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  font-size: 15px;
 }
 
 .card-cotacao {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   border-radius: 5px;
-  background-color: red;
 }
 
 .card-varicao {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   border-radius: 5px;
-  background-color: red;
 }
+
 .card-pl {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   border-radius: 5px;
-  background-color: red;
 }
 
 .card-pvp {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   border-radius: 5px;
-  background-color: red;
 }
+
 .card-dy {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
   border-radius: 5px;
-  background-color: red;
 }
 
 .card-body {
   text-align: center;
-  width: 100px;
-  height: 50px;
-  background-color: red;
+  width: 160px;
+  height: 40px;
+  background-color: white;
   border-radius: 0px 0px 5px 5px;
+  font-size: 22px;
+}
+
+.header-grafico{
+  height: 40px;
+  width: 80%x;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .grafico {
-  background-color: #333;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
 }
 
 .grafico img {
   padding: 10px;
   align-items: center;
   width: 80%;
+  margin-left: 50px;
+}
+
+.img-logo{
+  margin-right: 10px;
+  display: inline;
+  width: 10%;
+  height: 10%;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.carteira, .fav, .compartilhar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #cccccc7a; 
+  border-radius: 10px; 
+  width: 40px; 
+  height: 40px;
+  margin: 0 8px;
+}
+
+.carteira i, .fav i, .compartilhar i {
+  font-size: 20px;
+  color: #c0af59; 
+}
+
+.icone-graf i{
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.icone-graf i span{
+  
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.icone-graf{
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  font-size: 20px;
+  color: #2a2f38;
+}
+
+#simbolos{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cards {
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header-logos ul{
+  display: flex;
+}
+
+#header-logos ul li{
+  align-items: center;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#header-logos ul li i{
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+#header-logos ul li span{
+  color: #f4f4f4;
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav ul {

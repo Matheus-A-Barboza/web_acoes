@@ -18,9 +18,14 @@
   </head>
   <body>
     <div class="container fixed">
-      <div class="brand">Tigrinho Invest</div>
+      <div class="brand">
+        <img class="img-logo" src="assets/img/icon.ico" alt="" />Tigrinho Invest
+      </div>
       <nav>
         <ul>
+          <li>
+            <i class="fa-solid fa-magnifying-glass" style="color: #c0af59"></i>
+          </li>
           <li><a href="#">Iniciante</a></li>
           <li><a href="#">Ações</a></li>
           <li><a href="#">Flls</a></li>
@@ -35,6 +40,12 @@
           <button class="carteira-btn">
             <li class=""><i class="fas fa-wallet">Carteira</i></li>
           </button>
+          <button class="profile-btn">
+            <li class="profile" href="#">
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-user"></i>
+            </li>
+          </button>
         </ul>
       </nav>
     </div>
@@ -44,10 +55,14 @@
         <div class="header_acoes" id="header_acoes">
           <div class="guia-botoes">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Ações</a></li>
-              <li><a href="#">Utilidade Pública</a></li>
-              <li><a href="#">Aure3</a></li>
+              <li><a href="#" style="color: #e6e6e6a5">HOME /</a></li>
+              <li><a href="#" style="color: #e6e6e6a5">AÇÕES /</a></li>
+              <li>
+                <a href="#" style="color: #e6e6e6a5"
+                  >PETRÓLIO, GÁS E BIOCOMBUSTÍVEIS /</a
+                >
+              </li>
+              <li><a href="#" style="color: #e6e6e6a5">PETR4</a></li>
             </ul>
           </div>
           <section class="logo">
@@ -58,7 +73,37 @@
             </div>
           </section>
         </div>
-        <div class="header-logos" id="header-logos"></div>
+        <div class="header-logos" id="header-logos">
+          <ul>
+            <li>
+              <i class="fa-solid fa-chart-simple" style="color: #c0af59"></i
+              ><span>INDICADORES</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i
+              ><span>COTAÇÃO</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-building" style="color: #c0af59"></i
+              ><span>EMPRESA</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-dollar-sign" style="color: #c0af59"></i
+              ><span>CONTÁBIL</span>
+            </li>
+          </ul>
+        </div>
+        <div class="simbolos" id="simbolos">
+          <button class="fav">
+            <i class="fa-regular fa-heart" style="color: #c0af59"></i>
+          </button>
+          <button class="compartilhar">
+            <i class="fa-solid fa-repeat" style="color: #c0af59"></i>
+          </button>
+          <button class="carteira">
+            <i class="fa-solid fa-wallet" style="color: #c0af59"></i>
+          </button>
+        </div>
       </div>
     </header>
     <div class="container-cards">
@@ -66,13 +111,12 @@
         <div class="card-cotacao">
           <div class="card-header">
             <div>
-              <span title="Cotação">Cotação</span>
+              <span title="Cotação" style="color: #d3b583">COTAÇÃO</span>
             </div>
           </div>
           <div class="card-body">
             <div>
-              <span class="value">R$32,00</span>
-              <i class="fa-thin fa-question"></i>
+              <span class="value">R$36,34</span>
             </div>
           </div>
         </div>
@@ -80,13 +124,13 @@
         <div class="card-variacao">
           <div class="card-header">
             <div>
-              <span title="Variação">Variação</span>
+              <span title="Variação" style="color: #d3b583">VARIAÇÃO(12)</span>
             </div>
           </div>
           <div class="card-body">
             <div>
-              <span class="value">R$32,00</span>
-              <i class="fa-thin fa-question"></i>
+              <span class="value">97,50%</span>
+              <i class="fa-solid fa-arrow-up" style="color: #63e6be"></i>
             </div>
           </div>
         </div>
@@ -94,13 +138,12 @@
         <div class="card-pl">
           <div class="card-header">
             <div>
-              <span title="P/L">P/L</span>
+              <span title="P/L" style="color: #d3b583">P/L</span>
             </div>
           </div>
           <div class="card-body">
             <div>
-              <span class="value">R$32,00</span>
-              <i class="fa-thin fa-question"></i>
+              <span class="value">3,80</span>
             </div>
           </div>
         </div>
@@ -108,13 +151,12 @@
         <div class="card-pvp">
           <div class="card-header">
             <div>
-              <span title="P/VP">P/VP</span>
+              <span title="P/VP" style="color: #d3b583">P/VP</span>
             </div>
           </div>
           <div class="card-body">
             <div>
-              <span class="value">R$32,00</span>
-              <i class="fa-thin fa-question"></i>
+              <span class="value">1,25</span>
             </div>
           </div>
         </div>
@@ -122,13 +164,12 @@
         <div class="card-dy">
           <div class="card-header">
             <div>
-              <span title="DY">DY</span>
+              <span title="DY" style="color: #d3b583">DY</span>
             </div>
           </div>
           <div class="card-body">
             <div>
-              <span class="value">R$32,00</span>
-              <i class="fa-thin fa-question"></i>
+              <span class="value">19,82%</span>
             </div>
           </div>
         </div>
@@ -137,8 +178,28 @@
     <main>
       <div class="conteudo-page">
         <div class="grafico">
+          <div class="header-grafico">
+            <div class="icone-graf" id="icone-graf">
+              <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
+              <span>COTAÇÃO PETR4</span>
+            </div>
+          </div>
           <img src="assets/img/grafico.jpg" alt="grafico bolsa petr4" />
+          <h4>
+            Se você tivesse investido R$ 1.000,00 (alterar) há 1 ano (alterar),
+            hoje você teria: R$ 1.973,89*
+          </h4>
+          <h6>*O valor considera o reinvestimento dos dividendos.</h6>
+          <button class="comparar">
+            COMPARAR COM OUTRAS EMPRESAS <i class="fa-solid fa-retweet"></i>
+          </button>
         </div>
+
+        <div class="rentabilidade">
+          <div class="grade-renta" id="grade-renta"></div>
+          <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
+        </div>
+        
       </div>
     </main>
     <footer>
