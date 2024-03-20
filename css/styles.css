@@ -24,6 +24,10 @@ h6{
   justify-content: center;
 }
 
+.section{
+  margin-top: 20px;
+}
+
 .comparar{
   font-family: "Arial";
   font-weight: 750;
@@ -101,9 +105,13 @@ h6{
   flex-direction: column;
 }
 
+.pro{
+  font-size: 15px;
+}
+
 .pro-btn {
-  width: 60px;
-  height: 25px;
+  width: 83px;
+  height: 40px;
   background-color: #c0af59;
   border-radius: 20px;
   border: none;
@@ -111,16 +119,18 @@ h6{
 
 .carteira-btn {
   width: 110px;
-  height: 25px;
+  height: 30px;
   border-radius: 20px;
+  margin-left: 20px;
 }
 
 .profile-btn{
   margin: 20px;
-  width: 60px;
-  height: 30px;
+  width: 90px;
+  height: 40px;
   border-radius: 20px;
   border-color: #c0af59;
+  margin-left: 100px;
 }
 
 .brand {
@@ -213,6 +223,8 @@ h6{
   align-items: center;
 }
 
+
+
 .carteira, .fav, .compartilhar {
   display: flex;
   justify-content: center;
@@ -251,6 +263,66 @@ h6{
   font-style: bold;
   font-size: 20px;
   color: #2a2f38;
+}
+
+.header-renta{
+  height: 40px;
+  width: 80%x;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* background-color: #293038; */
+  align-items: center;
+}
+
+.icone-renta i{
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.icone-renta i span{
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.icone-renta{
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  font-size: 20px;
+  color: #2a2f38;
+}
+
+ .negativo{
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  color: red;
+ }
+
+ .positivo{
+  font-family: "Arial";
+  font-weight: 550;
+  font-style: bold;
+  color: green;
+ }
+
+.tabela-rentabilidade{
+  margin-top: 20px;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+#bars{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#user{
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 #simbolos{
@@ -325,6 +397,11 @@ div ul li a {
 
 main {
   padding: 20px 50px;
+}
+
+table{
+  width: 50px;
+  height: 90px;
 }
 
 footer {

@@ -33,17 +33,17 @@
           <li><a href="#">Notícias</a></li>
           <li><a href="#">Mais</a></li>
           <button class="pro-btn">
-            <li class="pro" href="#">
+            <li class="pro" style="color: #ffffff" href="#">
               <i class="star fa-solid fa-star" style="color: #ffffff"></i>PRO
             </li>
           </button>
           <button class="carteira-btn">
-            <li class=""><i class="fas fa-wallet">Carteira</i></li>
+            <li class="wallet"><i class="fas fa-wallet">Carteira</i></li>
           </button>
           <button class="profile-btn">
             <li class="profile" href="#">
-              <i class="fa-solid fa-bars"></i>
-              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-bars" id="bars"></i>
+              <i class="fa-solid fa-user" id="user"></i>
             </li>
           </button>
         </ul>
@@ -176,30 +176,40 @@
       </section>
     </div>
     <main>
-      <div class="conteudo-page">
-        <div class="grafico">
-          <div class="header-grafico">
-            <div class="icone-graf" id="icone-graf">
-              <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
-              <span>COTAÇÃO PETR4</span>
+      <section>
+        <div class="conteudo-page">
+          <div class="grafico">
+            <div class="header-grafico">
+              <div class="icone-graf" id="icone-graf">
+                <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
+                <span>COTAÇÃO PETR4</span>
+              </div>
             </div>
+            <img src="assets/img/grafico.jpg" alt="grafico bolsa petr4" />
+            <h4>
+              Se você tivesse investido R$ 1.000,00 (alterar) há 1 ano (alterar),
+              hoje você teria: R$ 1.973,89*
+            </h4>
+            <h6>*O valor considera o reinvestimento dos dividendos.</h6>
+            <button class="comparar">
+              COMPARAR COM OUTRAS EMPRESAS <i class="fa-solid fa-retweet"></i>
+            </button>
           </div>
-          <img src="assets/img/grafico.jpg" alt="grafico bolsa petr4" />
-          <h4>
-            Se você tivesse investido R$ 1.000,00 (alterar) há 1 ano (alterar),
-            hoje você teria: R$ 1.973,89*
-          </h4>
-          <h6>*O valor considera o reinvestimento dos dividendos.</h6>
-          <button class="comparar">
-            COMPARAR COM OUTRAS EMPRESAS <i class="fa-solid fa-retweet"></i>
-          </button>
-        </div>
+        </section>
+        <section class="section">
+          <div class="conteudo-page">
+            <div class="grafico">
+              <div class="header-grafico">
+                <div class="icone-graf" id="icone-graf">
+                  <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
+                  <span>HISTÓRICO DE DIVIDENDOS - PETR4</span>
+                </div>
+              </div>
+              <img src="assets/img/grafico-torre.jpg" alt="grafico bolsa petr4" />
+              
+            </div>
+          </section>
 
-        <div class="rentabilidade">
-          <div class="grade-renta" id="grade-renta"></div>
-          <i class="fa-solid fa-diagram-project" style="color: #c0af59"></i>
-        </div>
-        
       </div>
     </main>
     <footer>
