@@ -309,11 +309,16 @@ h6{
   color: green;
  }
 
-.tabela-rentabilidade{
-  margin-top: 20px;
-  background-color: blue;
-  border-radius: 20px;
+ .tabela{
+  margin: auto;
+  width: 80%;
+ }
+
+.tabela thead{
+  color: #767676;
+  font-size: 15px;
 }
+
 
 #bars{
   margin-right: 10px;
